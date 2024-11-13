@@ -164,7 +164,8 @@ def main():
         print("Invalid input")
     
 # Run the program
-main()
+if __name__ == "__main__":
+    main()
 
 #Generating bill
 bill = input("Would you like to print your bill? yes/no: ").lower()
